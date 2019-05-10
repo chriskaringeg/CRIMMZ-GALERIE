@@ -1,0 +1,241 @@
+
+/* ########################################################################################################################################################### */
+                                                                                /* IMAGE DISPLAY STYLER */
+
+                                                                                    .carousel-inner{
+                                                                                    height: 340px;
+                                                                                    }
+
+
+                                                                                    .woble{
+                                                                                    padding: 20px;
+
+                                                                                    }
+
+                                                                                    .index {
+                                                                                    column-count: 2;
+                                                                                    column-gap: 10px;
+                                                                                    margin-top: 3%;
+                                                                                    
+                                                                                    }
+                                                                                    .carousel-caption {
+                                                                                    bottom: 10%;
+                                                                                    }
+
+                                                                                /* END OF IMAGE DISPLAY STYLER */
+
+/* ########################################################################################################################################################### */
+                                                                                /* BUTTONS USED */
+                                                                                    .buttonsearch{
+                                                                                    margin-left: -20%;
+                                                                                    margin-top: -2%;
+                                                                                    color: black;
+                                                                                    font-family: "proxima noma";
+                                                                                        }
+
+                                                                                    .searching{
+                                                                                    margin-left: -13%;
+                                                                                    margin-top: -6%;
+                                                                                    color: black;
+                                                                                    border-radius: 50px;
+                                                                                        }
+
+                                                                                    .searchbutton{
+                                                                                    background-color: black;
+                                                                                    border-radius: 10px;
+                                                                                    color: white;
+                                                                                    padding-left: 20px;
+                                                                                    padding-right: 20px;
+                                                                                    text-align: center;
+                                                                                    opacity: 0.6;
+                                                                                    }
+
+                                                                                    .searchbutton :hover{
+                                                                                    background-color: red;
+                                                                                    border-radius: px;
+                                                                                    color: white;
+                                                                                    text-align: center;
+                                                                                    opacity: 1;
+                                                                                    }
+
+
+                                                                                /* END OF BUTTON DISPLAY */
+
+/* ########################################################################################################################################################### */
+                                                                                /* VIEW DETAIL BUTTON */
+
+                                                                                    .modalbtn{
+                                                                                    border: none;
+                                                                                    padding: 17px;
+                                                                                    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+                                                                                    cursor: pointer;
+                                                                                    display: block;
+                                                                                    
+                                                                                    border: 2px solid greenyellow;
+                                                                                    width: 190px;
+                                                                                    height: 45px;
+                                                                                    position: absolute;
+                                                                                    transform: translate(-50%, -50%);
+                                                                                    text-align: center;
+                                                                                    text-transform: uppercase;
+                                                                                    letter-spacing: .08em;
+                                                                                    font-weight: bold;
+                                                                                    margin-top: 40%;
+                                                                                    text-decoration: none;
+                                                                                    margin-left: 70%;
+                                                                                    color: greenyellow;
+                                                                                    background-color: rgba(255, 255, 255, 0.3);
+
+                                                                                    }
+
+                                                                                    p.modalbtn :hover{
+                                                                                    text-decoration: none;
+                                                                                    }
+
+                                                                                    p.modalbtn{
+                                                                                    color: white;
+                                                                                    padding-top: 3%;
+                                                                                    }
+                                                                                    .modalbtn:p{
+
+                                                                                    color: white;
+                                                                                    font-size: 20px;
+                                                                                    margin-top: -5px;
+                                                                                    text-decoration: none;
+                                                                                    }
+
+                                                                                    .modalbtn:hover p{
+                                                                                    color:white;
+                                                                                    opacity: 0.5;
+                                                                                    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+                                                                                    text-decoration: none;
+                                                                                    }
+
+                                                                                    .modalbtn:hover:before{
+                                                                                    left:0%;
+                                                                                    right: auto;
+                                                                                    width: 100%;
+                                                                                    text-decoration: none;
+                                                                                    }
+
+                                                                                    .modalbtn:before{
+                                                                                    display: block;
+                                                                                    position: absolute;
+                                                                                    top: 0px;
+                                                                                    right: 0px;
+                                                                                    height: 100%;
+                                                                                    width: 0px;
+                                                                                    z-index: -1;
+                                                                                    content: '';
+                                                                                    color: white !important;
+                                                                                    background: greenyellow;
+                                                                                    opacity: 0.7;
+                                                                                    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)0s;
+                                                                                    text-decoration: none;
+                                                                                    }
+
+                                                                                                        /* END OF VIEW DETAIL BUTTON */
+
+/* ########################################################################################################################################################### */
+                                                                            /* MEDIA QUERIES */
+                                                                                @media (max-width: 1112px) {
+                                                                                    .index {
+                                                                                    column-count: 2;
+                                                                                    column-gap: 10px;
+                                                                                    margin-top: 3%;
+                                                                                    }
+
+                                                                                    .buttonsearch{
+                                                                                    margin-left: -23%;
+                                                                                    margin-top: -2%;
+                                                                                }
+
+                                                                                    .searching{
+                                                                                    margin-left: -20%;
+                                                                                    margin-top: 0%;
+                                                                                    }
+                                                                                    
+                                                                                }
+                                                                            
+                                                                                @media (max-width: 850px) {
+                                                                                    p.categ{
+                                                                                        margin-top: -10%;
+                                                                                    }
+                                                                                    
+                                                                                    .woble{
+                                                                                        margin-top: 20%;
+                                                                                        padding: 15%;
+                                                                                    }
+                                                                                    .buttonsearch{
+                                                                                    margin-left: -29%;
+                                                                                    margin-top: -3%;
+                                                                                }
+
+                                                                                    p.modalbtn{
+                                                                                    padding-top: 1%;
+                                                                                    padding-left: 5%;
+                                                                                    }
+                                                                                    .modalbtn{
+                                                                                    margin-left: 50%;
+                                                                                    margin-top: 15%;
+                                                                                    font-size: 15px;
+                                                                                    width: 150px;
+                                                                                    height: 30px;
+                                                                                    white-space: nowrap;
+                                                                                    }
+                                                                                    .searching{
+                                                                                    margin-left: -20%;
+                                                                                    margin-top: -15%;
+                                                                                    }
+                                                                                
+                                                                                }
+
+
+                                                                                @media (max-width: 700px) {
+                                                                                    .categ{
+                                                                                        margin-top: -20%;
+                                                                                    }
+
+                                                                                    .woble{
+                                                                                        margin-top: -30%;
+                                                                                        padding: 15%;
+                                                                                    }
+                                                                                    .index {
+                                                                                    column-count: 1;
+                                                                                    column-gap: 10px;
+                                                                                    margin-top: 3%;
+                                                                                    }
+                                                                                    p.modalbtn{
+                                                                                    padding-top: 7px;
+                                                                                    padding-left: 18px;
+                                                                                    }
+                                                                                    .modalbtn{
+                                                                                    margin-left: 30%;
+                                                                                    margin-top: 25%;
+                                                                                    font-size: 10px;
+                                                                                    width: 120px;
+                                                                                    height: 30px;
+                                                                                    white-space: nowrap;
+                                                                                    
+                                                                                    }
+                                                                                    .searching{
+                                                                                        display: none;
+                                                                                    }
+                                                                                    .categr{
+                                                                                        display: none;
+                                                                                    }
+                                                                                }
+
+                                                                                @media (max-width: 450px) {
+
+                                                                                    .woble{
+                                                                                        margin-top: -70%;
+                                                                                        padding-bottom: 65%;
+                                                                                    }
+                                                                                    p.modalbtn{
+                                                                                    padding-top: 7px;
+                                                                                    padding-left: 8px;
+                                                                                    }
+                                                                            /* END OF MEDIA QUERIES */
+
+/* ########################################################################################################################################################### */
