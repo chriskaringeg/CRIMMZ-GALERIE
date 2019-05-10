@@ -26,7 +26,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=20)),
                 ('image', models.ImageField(upload_to='pics/')),
                 ('description', models.CharField(max_length=250)),
-                ('category', models.ForeignKey(blank=True, null='True', on_delete=django.db.models.deletion.CASCADE, to='synthetic.Category')),
+                ('category', models.ForeignKey(blank=True, null='True', on_delete=django.db.models.deletion.CASCADE, to='galerie.Category')),
             ],
         ),
         migrations.CreateModel(
@@ -39,6 +39,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='image',
             name='location',
-            field=models.ForeignKey(blank=True, null='True', on_delete=django.db.models.deletion.CASCADE, to='synthetic.Location'),
+            field=models.ForeignKey(blank=True, null='True', on_delete=django.db.models.deletion.CASCADE, to='galerie.Location'),
         ),
     ]
