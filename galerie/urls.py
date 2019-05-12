@@ -1,4 +1,4 @@
-from django.urls import path
+from django.conf.urls import url
 from . import views
 from django.conf import settings
 from django.conf.urls.static import static
@@ -14,7 +14,7 @@ urlpatterns=[
 #################################################################################################################################################################################
 
     #INDEX PATH
-    path('', views.index, name='index'),
+    url('', views.index, name='index'),
 
 #################################################################################################################################################################################
 #PATH FOR  SEARCH
@@ -22,7 +22,7 @@ urlpatterns=[
 
     #SEARCH PATH
     #Search for different images bases on category 
-    path('search/', views.search_results, name='search_results'),
+    url('search/', views.search_results, name='search_results'),
 
 #################################################################################################################################################################################
 #PATH FOR  LOCATION
@@ -30,7 +30,7 @@ urlpatterns=[
 
     #LOCATION PATH
     #view location.html
-    path('location/', views.category, name='location'),
+    url('location/', views.category, name='location'),
 
 #################################################################################################################################################################################
 #PATH FOR  CATEGORY
@@ -38,7 +38,7 @@ urlpatterns=[
 
     #CATEGORY PATH
     #view category.html
-    path('category', views.category, name='category'),
+    url('category', views.category, name='category'),
 
 #################################################################################################################################################################################
 
