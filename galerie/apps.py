@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class SyntheticConfig(AppConfig):
+class GalerieConfig(AppConfig):
     name = 'galerie'
