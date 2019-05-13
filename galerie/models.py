@@ -61,6 +61,7 @@ class Image(models.Model):
     '''Method to filter database results'''
     def __str__(self):
         return self.name
+        
     @classmethod
     def all_images(cls):
         images = cls.objects.all()
