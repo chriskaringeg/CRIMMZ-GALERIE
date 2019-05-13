@@ -2,7 +2,12 @@
 {% load bootstrap3 %} {% load static %}
 {% block content %}
 
-<body>
+<div class="body">
+                            <div class="headfont text-center crimmz" style="font-size: 500px;  padding: 5%; margin-bottom: -12%">
+                                <h1 style="font-size: 50px">CRIMMZ-GALERIE</h1>
+                                <h2 style="font-size: 50px">Best pics in town</h2>
+                            </div>
+
     <!-- IMAGE SLIDER -->
 
     <div id="myCarousel" class="carousel slide" dataride="carousel">
@@ -24,7 +29,8 @@
                             <!-- Search Form -->
 
                             <div class="container">
-                                <form class="searching" role="search" action="{% url 'search_results' %}">
+           
+                  <form class="searching" role="search" action="{% url 'search_results' %}">
                                     <input type="text" class="qWUF0" data-test="feed-header-search-form-input" name="category" id="FEED_HEADER_SEARCH_INPUT"
                                         placeholder="Search Category! " required="">
 
@@ -96,6 +102,6 @@
         </div>
 
     </div>
-</body>
+</div>
 {% block styles%} {% bootstrap_css %} {% endblock %}
 {% endblock %}
