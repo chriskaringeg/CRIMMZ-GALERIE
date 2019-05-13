@@ -78,7 +78,7 @@ $ sudo apt-get install postgresql postgresql-contrib libpq-dev
 
 ## Django Admin
 
-Username: chris Password:<private>
+Username: chris , Password:<private>
 
 ## Known Bugs x
 Currently, there are no known bugs
@@ -89,4 +89,4 @@ You can view the live site here
 ## License
 This project is under the MIT licence
 
-Copyright (c) 2018 KARINGE KINYUA
+Copyright (c) 2019 KARINGE KINYUA
