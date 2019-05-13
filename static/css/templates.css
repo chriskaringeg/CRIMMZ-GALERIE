@@ -26,11 +26,11 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: white; /*Change active text color here*/
+    color: green; /*Change active text color here*/
 }
 
 .head{
-  background-image: url( '/static/images/home-chris.jpg') !important;
+  background-image: url( '/static/images/home-pic13.jpg') !important;
   background-attachment: fixed; 
   margin-top: 10%;
   padding-top: 30%;
@@ -99,7 +99,7 @@ margin-top: -15%;
 
 
 /* Image Display */
-/* IMage REsponsive Display also Has similar properties with bootstrap class (img-responsive) */
+ IMage REsponsive Display also Has similar properties with bootstrap class (img-responsive) 
 
 
 .imagedisplay{
