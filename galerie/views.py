@@ -17,8 +17,8 @@ from .models import Location, Category, Image
 
 #INDEX Page View Function!
 def index(request):
-    images = Image.all_images()
-    return render(request,'base.html',{'all_images':images})
+    images = Image.objects.all()
+    return render(request,'home.html',{'images':images,})
 
 #################################################################################################################################################################################
 #LOCATION PAGE VIEW FUNCTION
