@@ -59,7 +59,7 @@ $ sudo apt-get install postgresql postgresql-contrib libpq-dev
 - .ENV file
 - SECRET_KEY='<SECRET_KEY>'
 - DEBUG=True #set to false in production
-- DB_NAME='tribune'
+- DB_NAME='galerie'
 - DB_USER='user'
 - DB_PASSWORD='password'
 - DB_HOST='127.0.0.1'
@@ -78,7 +78,7 @@ $ sudo apt-get install postgresql postgresql-contrib libpq-dev
 
 ## Django Admin
 
-Username: chris , Password:<private>
+Username: chris , Password: <private>
 
 ## Known Bugs x
 Currently, there are no known bugs
